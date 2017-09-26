@@ -1,0 +1,28 @@
+{
+  "name": "forge.externaldata.sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "web": "node server.js",
+    "start-dev": "nodemon server.js localhost",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deltatre-webplu/forge-table-input.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  }
+}
