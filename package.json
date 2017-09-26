@@ -1,5 +1,5 @@
 {
-  "name": "forge.externaldata.sample",
+  "name": "forge-table-input",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,12 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:deltatre-webplu/forge-table-input.git"
+    "url": "https://github.com/deltatre-webplu/forge-table-input.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "escape-html": "^1.0.3",
     "express": "^4.15.5"
   },
   "devDependencies": {
